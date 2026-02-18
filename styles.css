@@ -8,7 +8,9 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+.avatar{
+	width: 150px;
+}
 
 .card {
     width: 400px;
@@ -26,43 +28,6 @@ body {
     Find a color palette you like on Coolors.co
     and use it in your business card.
      */
-}
-
-/* Shine */
-.avatar figure {
-	position: relative;
-	width: 150px;
-
-}
-.avatar figure::before {
-	position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
-}
-.avatar figure:hover::before {
-	-webkit-animation: shine .75s;
-	animation: shine .75s;
-}
-@-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-@keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-
 
 
 
