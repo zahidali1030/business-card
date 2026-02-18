@@ -8,9 +8,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.avatar {
-    width: 150px;
-}
+
 
 .card {
     width: 400px;
@@ -31,10 +29,12 @@ body {
 }
 
 /* Shine */
-.hover14 figure {
+.avatar figure {
 	position: relative;
+	width: 150px;
+
 }
-.hover14 figure::before {
+.avatar figure::before {
 	position: absolute;
 	top: 0;
 	left: -75%;
@@ -48,7 +48,7 @@ body {
 	-webkit-transform: skewX(-25deg);
 	transform: skewX(-25deg);
 }
-.hover14 figure:hover::before {
+.avatar figure:hover::before {
 	-webkit-animation: shine .75s;
 	animation: shine .75s;
 }
