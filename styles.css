@@ -19,9 +19,9 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
+    background: black;
+    color: white;
+    border-bottom: 6px solid yellow;
         
     /*
     Challenge:
@@ -30,9 +30,6 @@ body {
      */
 }
 
-.border-blue {
-    border: 1px dotted blue;
-}
 
 /*
 Stretch goals:
